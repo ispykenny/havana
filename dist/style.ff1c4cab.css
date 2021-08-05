@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+header {
+  background: #D2B48C;
+}
+
+.inner {
+  max-width: 1440px;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-section {
+  padding: 1.5em 0em;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-section ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-section li {
+  margin-right: 2em;
+}
+.nav-section li:last-of-type {
+  margin-right: 0em;
+}
+.nav-section a:not(.cta) {
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.cta {
+  background: #800000;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0.9em 1.4em;
+}
+
+.nav-logo {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+}
+.nav-logo img {
+  width: 100%;
+  transform: translateY(-20%);
+  position: absolute;
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body p {
+  color: #D2B48C;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */

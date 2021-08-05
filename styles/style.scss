@@ -1,7 +1,13 @@
 @import './var';
+@import './settings';
+@import './nav';
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 body {
   margin: 0;
   background: white;
+  font-family: 'PT Sans Narrow', sans-serif;;
 
   p {
     color: $tan;
