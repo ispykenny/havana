@@ -1,0 +1,16 @@
+{
+  "name": "havana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --public-url /",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-rc.0"
+  }
+}
