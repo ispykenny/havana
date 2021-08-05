@@ -1,4 +1,9 @@
+@import './var';
 body {
   margin: 0;
   background: white;
+
+  p {
+    color: $tan;
+  }
 }

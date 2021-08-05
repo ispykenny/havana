@@ -1,1 +1,1 @@
-{"mappings":"AAAA;EACE;EACA","sources":["styles/style.scss"],"sourcesContent":["body {\n  margin: 0;\n  background: white;\n}"],"names":[],"version":3,"file":"index.2399e002.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AACA;EACE;EACA;;AAEA;EACE,OCJG","sources":["styles/style.scss","styles/_var.scss"],"sourcesContent":["@import './var';\nbody {\n  margin: 0;\n  background: white;\n\n  p {\n    color: $tan;\n  }\n}\n",null],"names":[],"version":3,"file":"index.2399e002.css.map","sourceRoot":"/__parcel_source_root/"}
